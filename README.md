@@ -1,5 +1,7 @@
 cs-e4580 no-openmp-cpu-baseline-multithreaded-tile-matrix-multiplication
 
+changelog
+
 [v0.4.0] - commit 29fefd0
 
 i8mm.cc: included strip mining for row tile element ij, column tile leemnt kj, and inner tile element jj. 
@@ -104,5 +106,6 @@ timeout 3.0   uniform 1000 1000 1000
 timeout 3.0   uniform 999 1001 1003  
 timeout 23.5  uniform 8000 8000 8000
 ```
+
 
 
