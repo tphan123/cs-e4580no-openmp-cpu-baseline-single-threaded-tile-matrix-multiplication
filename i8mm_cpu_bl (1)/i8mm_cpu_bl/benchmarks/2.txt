@@ -1,0 +1,2 @@
+timeout 19.0
+uniform 2000 2000 2000

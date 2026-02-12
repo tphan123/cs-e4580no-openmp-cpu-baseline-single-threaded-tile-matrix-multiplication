@@ -1,0 +1,2 @@
+timeout 0.5
+tiled 8 32 32 4
