@@ -33,6 +33,8 @@ const std :: int8_t A , const std :: int8_t B , std :: int32_t C ) {
 ```
 
  [v0.3.0] - commit 822fc49
+
+
 i8mm.cc: added int tilesize, added int kk_tileend to account for partial tiles, added acc to account for accumulation of the sum product to meet no zero matrix C initiation requirement of the test, initiate matrix C only at the beginning as the first iterated accumulation. int32_t acc = 0 added. i8mm.cc: passed all unit matrix tests and benchmarks at --no-timeout.
 ```
 #include "mm.h"
@@ -102,4 +104,5 @@ timeout 3.0   uniform 1000 1000 1000
 timeout 3.0   uniform 999 1001 1003  
 timeout 23.5  uniform 8000 8000 8000
 ```
+
 
